@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #EBEBEB;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a, #navProjects,#navAbout,#navContact {
+    margin-top: -10px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    float: right;
+    color: black;
+    text-decoration: none;
+}
+#navProjects:hover,#navAbout:hover,#navContact:hover {
+    float: right;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+}
+#navPortfolio{
+    font-size: 24px;
+    position: relative;
+    float: left;
+}
+section {
+    padding: 2em;
+    text-align: center;
+}
+
+section#about {
+    height: 350px;
+    width: auto;
+}
+section#home {
+    background-image: url(img/pexels-joaojesusdesign-925743.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+}
+#img{
+    position: relative;
+    height: 250px;
+    width: auto;
+    left: 450px;
+    bottom: 100px;
+    border-radius: 50%;
+}
+.greet{
+    position: relative;
+    font-size: 32px;
+    right: 560px;
+}
+.homeGreet{
+    position: relative;
+    font-size: 32px;
+    right: 500px;
+}
+.homegreetings{
+    position: relative;
+    right: 200px;
+}
+.hellogreetings{
+    position: relative;
+    right: 200px;
+}
+section#projects {
+    background-color: #e2e2e2;
+}
+
+section#contact {
+    background-color: #d4d4d4;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #ccc;
+    margin: 1em auto;
+    padding: 1em;
+    width: 80%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
