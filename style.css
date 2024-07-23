@@ -57,6 +57,7 @@ section#home {
     background-repeat: no-repeat;
     height: 400px;
     width: auto;
+    overflow: hidden;
 }
 #img{
     position: relative;
@@ -80,6 +81,29 @@ section#home {
     position: relative;
     right: 200px;
 }
+
+.typeText{
+    position: relative;
+    left: 160px;
+    width: 540px;
+    animation: typing 2s steps(50), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 12px;
+}
+/* cursor blinking */
+@keyframes blink{
+    50% { border-color: transparent; }
+}
+/* typing effects */
+@keyframes typing{
+    from {
+        width: 0
+      }
+}
+
 .hellogreetings{
     position: relative;
     right: 200px;
