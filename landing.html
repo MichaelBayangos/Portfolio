@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- navigation bar -->
     <header>
       <nav>
         <ul>
@@ -18,41 +19,175 @@
       </nav>
     </header>
     <section id="home">
-      <h2 class="homeGreet">Hello, Welcome</h2>
-      <p class="typeText">
-        I'm a web developer with a passion for creating beautiful and functional
-        websites.
-      </p>
+      <div class="background"></div>
+      <div class="content">
+        <h2 class="homeGreet">Hello, Welcome</h2>
+        <p class="typeText">
+          I'm a front-end developer and flutter developer with a passion for
+          creating beautiful and functional Websites and mobile application.
+        </p>
+      </div>
     </section>
+
+    <!-- about -->
     <section id="about">
-      <h2 class="greet">About</h2>
+      <div>
+        <img
+          id="img"
+          class="arrow"
+          src="img/arrow-removebg-preview.png"
+          alt=""
+        />
+      </div>
+      <div class="book">
+        <div class="back"></div>
+        <div class="page6">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm <strong>Michael Angelo D. Bayangos</strong>, a passionate
+            and driven <strong>Web and Mobile Application Developer</strong>. I
+            am 22 years old and was born on May 06, 2002.
+          </p>
+          <p>
+            I graduated from Tarlac State University with a Bachelor of
+            Information Technology, specializing in Web and Mobile Applications.
+            I am honored to have graduated with Latin Honor as Cum Laude.
+          </p>
+          <h3>Skills</h3>
+          <ul>
+            <li>Knows the Basic of <strong>Flutter Development</strong></li>
+            <li>Basic <strong>Front-End Developer</strong></li>
+            <li>Skilled in <strong>Web Design</strong></li>
+            <li>
+              Proficient with <strong>Microsoft Word and PowerPoint</strong>
+            </li>
+            <li>Excellent <strong>Verbal and Written Communication</strong></li>
+            <li>Willing to learn</li>
+          </ul>
+        </div>
+
+        <div class="page5"></div>
+        <div class="page4"></div>
+        <div class="page3"></div>
+        <div class="page2"></div>
+        <div class="page1"></div>
+        <div class="front">
+          <img class="aboutImg" src="img/about.png" alt="" />
+        </div>
+      </div>
       <img
         id="img"
-        src="img/450399278_803275131890811_8362940884417245795_n.jpg"
+        src="img/450399278_803275131890811_8362940884417245795_n-removebg-preview.png"
         alt=""
       />
-      
     </section>
+    <!-- project section -->
     <section id="projects">
-      <h2>Projects</h2>
-      <div class="project">
-        <h3>Project 1</h3>
-        <p>Description of project 1.</p>
-      </div>
-      <div class="project">
-        <h3>Project 2</h3>
-        <p>Description of project 2.</p>
+      <h2 style="font-size: 42px; margin-top: 0">PROJECTS</h2>
+      <div class="ProjectContainer">
+        <div class="project">
+          <img src="img/stoptouch.png" alt="" />
+          <br />
+          <br />
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/-JxLaYnasuM?si=JFwAoo6D-FTIJoJp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          <br /><br />
+          <p class="projectInfo">
+            Stop touch mobile time limiter is parental control mobile
+            application which can limit the usage of the children device and you
+            can check more details on my <strong>Github</strong> link:
+            <a
+              class="projectLink"
+              target="_blank"
+              href="https://github.com/MichaelBayangos/stoptouch"
+              >Click Here</a
+            >
+          </p>
+        </div>
+        <div class="project">
+          <img class="project2048" src="img/2048.png" alt="" />
+          <p class="projectInfo">
+            Is a Web Game I built back when I am participating on free Web Game
+            Development hosted by ZUIT and you can check the game itself using
+            the link:
+            <a
+              class="projectLink"
+              target="_blank"
+              href="https://michaelbayangos.github.io/js-fcbPortfolioBayangos/"
+              >Click Here</a
+            >
+          </p>
+        </div>
       </div>
     </section>
+    <!-- contact section -->
     <section id="contact">
-      <h2>Contact</h2>
-      <p>
-        You can reach me at
-        <a href="mailto:your-email@example.com">michaelbayangos34@gmail.com</a>.
-      </p>
+      <h2 style="font-family: monospace; font-size: 40px; margin-top: 0">
+        Contact
+      </h2>
+      <p>You can reach me at my socials below:</p>
+      <div class="iconContainer">
+        <a target="_blank" href="mailto:michaelbayangos@gmail.com">
+          <img
+            width="30"
+            height="30"
+            class="icons"
+            src="img/gmail-logo.png"
+            alt="Gmail"
+          />
+        </a>
+        <a target="_blank" href="https://www.facebook.com/jelobyngs">
+          <img
+            width="30"
+            height="30"
+            class="icons"
+            src="img/facebook.png"
+            alt="Facebook"
+          />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/jeloyalll/">
+          <img
+            width="30"
+            height="30"
+            class="icons"
+            src="img/instagram.png"
+            alt="Instagram"
+          />
+        </a>
+        <a target="_blank" href="mailto:ma.bayangos0263@student.tsu.edu.ph">
+          <img
+            width="30"
+            height="30"
+            class="icons"
+            src="img/outlook.png"
+            alt="Outlook"
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://teams.microsoft.com/l/chat/0/0?users=ma.bayangos0263@studen.tsu.edu.ph"
+        >
+          <img
+            width="30"
+            height="30"
+            class="icons"
+            src="img/office.png"
+            alt="Office"
+          />
+        </a>
+      </div>
     </section>
+    <!-- footer -->
     <footer>
-      <p>&copy; 2024 My Portfolio</p>
+      <p>&copy; 2024 Michael Portfolio</p>
     </footer>
   </body>
 </html>
